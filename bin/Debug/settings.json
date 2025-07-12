@@ -1,0 +1,203 @@
+﻿{
+  "Companies": [
+    {
+      "SLDServer": "rodionserver",
+      "LicenseServer": "rodionserver",
+      "Server": "rodionserver",
+      "CompanyDb": "Client1",
+      "UserName": "manager",
+      "Password": "Pass@word1",
+      "DbUserName": "sa",
+      "DbPassword": "",
+      "UseTrusted": false,
+      "Language": "ln_English",
+      "InvoiceAdjustmentDownloadBin": "ADJUST",
+      "DbServerType": "dst_MSSQL2017",
+      "ClientName": "Client1",
+      "AdjustmentsPriceList": "LastEvaluatedPrice",
+      "AdjustmentsPricingSchema": "LastEvaluatedPrice"
+    }
+  ],
+  "Schedules": [
+    {
+      "Name": "Install",
+      "Active": true,
+      "RunOnStartup": true,
+      "Start": null,
+      "Sleep": null,
+      "Class": "Pro4Soft.SapB1Integration.Workers.Install",
+      "ThreadName": "Default",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "ProductFullDownload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": null,
+      "Sleep": null,
+      "Class": "Pro4Soft.SapB1Integration.Workers.Download.ProductFullDownload",
+      "ThreadName": "Default",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "ProductDeltaDownload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:00:10",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Download.ProductDeltaDownload",
+      "ThreadName": "Download",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "PurchaseOrderDownload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:00:10",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Download.PurchaseOrderDownload",
+      "ThreadName": "Download",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "SalesOrderDownload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:00:10",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Download.SalesOrderDownload",
+      "ThreadName": "Download",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "WarehouseTransferDownload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:00:10",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Download.WarehouseTransferDownload",
+      "ThreadName": "Download",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "WorkOrderDownload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:00:10",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Download.WorkOrderDownload",
+      "ThreadName": "Download",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "InvoiceAdjustmentDownload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:00:10",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Download.InvoiceAdjustmentDownload",
+      "ThreadName": "Download",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "LockUnlockUpload",
+      "Active": true,
+      "RunOnStartup": true,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.LockUnlockUpload",
+      "ThreadName": "Default",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "ItemDimensionsUpload",
+      "Active": true,
+      "RunOnStartup": true,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.ItemDimensionsUpload",
+      "ThreadName": "Default",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "InventorySyncUpload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": null,
+      "Sleep": null,
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.InventorySyncUpload",
+      "ThreadName": "Default",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "AdjustmentUpload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.AdjustmentUpload",
+      "ThreadName": "Upload",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "CustVendReturnsAdjustmentUpload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.CustVendReturnsAdjustmentUpload",
+      "ThreadName": "Upload",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "SalesOrderUpload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.SalesOrderUpload",
+      "ThreadName": "Upload",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "PurchaseOrderUpload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.PurchaseOrderUpload",
+      "ThreadName": "Upload",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "WarehouseTransferUpload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.WarehouseTransferUpload",
+      "ThreadName": "Upload",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "SimpleWarehouseTransferUpload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.SimpleWarehouseTransferUpload",
+      "ThreadName": "Upload",
+      "AdditionalSettings": {}
+    },
+    {
+      "Name": "WorkOrderUpload",
+      "Active": true,
+      "RunOnStartup": false,
+      "Start": "2020-01-01T00:00:00-05:00",
+      "Sleep": "00:05:00",
+      "Class": "Pro4Soft.SapB1Integration.Workers.Upload.WorkOrderUpload",
+      "ThreadName": "Upload",
+      "AdditionalSettings": {}
+    }
+  ]
+}

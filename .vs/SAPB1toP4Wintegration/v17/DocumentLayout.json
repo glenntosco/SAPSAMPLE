@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\OneDrive - Barrdega\\20xx.-Archived\\2020\\Pro4Soft\\Interface\\SAP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{951546CB-2C3B-48D6-AAE3-E6CEA59C0072}|SAPB1toP4Wintegration.csproj|e:\\onedrive - barrdega\\20xx.-archived\\2020\\pro4soft\\interface\\sap\\workers\\download\\productfulldownload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951546CB-2C3B-48D6-AAE3-E6CEA59C0072}|SAPB1toP4Wintegration.csproj|solutionrelative:workers\\download\\productfulldownload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{951546CB-2C3B-48D6-AAE3-E6CEA59C0072}|SAPB1toP4Wintegration.csproj|e:\\onedrive - barrdega\\20xx.-archived\\2020\\pro4soft\\interface\\sap\\workers\\install.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951546CB-2C3B-48D6-AAE3-E6CEA59C0072}|SAPB1toP4Wintegration.csproj|solutionrelative:workers\\install.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{951546CB-2C3B-48D6-AAE3-E6CEA59C0072}|SAPB1toP4Wintegration.csproj|e:\\onedrive - barrdega\\20xx.-archived\\2020\\pro4soft\\interface\\sap\\workers\\download\\productdownload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{951546CB-2C3B-48D6-AAE3-E6CEA59C0072}|SAPB1toP4Wintegration.csproj|solutionrelative:workers\\download\\productdownload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductFullDownload.cs",
+              "DocumentMoniker": "E:\\OneDrive - Barrdega\\20xx.-Archived\\2020\\Pro4Soft\\Interface\\SAP\\Workers\\Download\\ProductFullDownload.cs",
+              "RelativeDocumentMoniker": "Workers\\Download\\ProductFullDownload.cs",
+              "ToolTip": "E:\\OneDrive - Barrdega\\20xx.-Archived\\2020\\Pro4Soft\\Interface\\SAP\\Workers\\Download\\ProductFullDownload.cs",
+              "RelativeToolTip": "Workers\\Download\\ProductFullDownload.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T17:16:49.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Install.cs",
+              "DocumentMoniker": "E:\\OneDrive - Barrdega\\20xx.-Archived\\2020\\Pro4Soft\\Interface\\SAP\\Workers\\Install.cs",
+              "RelativeDocumentMoniker": "Workers\\Install.cs",
+              "ToolTip": "E:\\OneDrive - Barrdega\\20xx.-Archived\\2020\\Pro4Soft\\Interface\\SAP\\Workers\\Install.cs",
+              "RelativeToolTip": "Workers\\Install.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T17:12:51.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDownload.cs",
+              "DocumentMoniker": "E:\\OneDrive - Barrdega\\20xx.-Archived\\2020\\Pro4Soft\\Interface\\SAP\\Workers\\Download\\ProductDownload.cs",
+              "RelativeDocumentMoniker": "Workers\\Download\\ProductDownload.cs",
+              "ToolTip": "E:\\OneDrive - Barrdega\\20xx.-Archived\\2020\\Pro4Soft\\Interface\\SAP\\Workers\\Download\\ProductDownload.cs",
+              "RelativeToolTip": "Workers\\Download\\ProductDownload.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAEEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T16:00:41.704Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
